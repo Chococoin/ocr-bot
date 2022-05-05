@@ -1,7 +1,4 @@
-const { Telegraf } = require('telegraf')
-const { session } = require('telegraf')
-const { Scenes } = require('telegraf')
-const { Markup } = require('telegraf')
+const { Telegraf, session, Scenes, Markup } = require('telegraf')
 require('dotenv').config()
 
 const imageScene = require('./scenes/imageScene').imageScene

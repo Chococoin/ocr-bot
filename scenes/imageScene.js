@@ -1,6 +1,4 @@
-const { Scenes } = require('telegraf')
-const { Composer } = require('telegraf')
-
+const { Scenes, Composer } = require('telegraf')
 const fileManager = require('../fileManager')
 const OCR = require('../ocr')
 
